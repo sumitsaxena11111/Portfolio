@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>PortWeb</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!----------------------------------------------------- header-------------------------- -->
+    <header class="header">
+        <a href="#" class="logo">Sumit Saxena</a>
+        <i id="menu-icon" class="fa-solid fa-bars"></i>
+        <!-- Navbar-------------------------------------------------------------------- -->
+        <nav class="navbar">
+            <a href="#home" class="active-link">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#portfolio">PROJECT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello! this is</h3>
+            <h1>Sumit  <span>Saxena</span></h1>
+            <h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+            <p>"Welcome to my <span>Web Developer</span> portfolio! im a skilled & creative Web Developer with a
+                passion for creating beautiful responsive websites..."</p>
+            <div class="social-media">
+                <a href="https://wa.me/+918601495835"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/sumit_saxenaaaaa?igsh=MWVhOGZybzhuYWdjaQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/sumit-saxena-a6125829a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+            <div class="btn-box">
+                <!-- <button class="btn-1">Download CV</button><a href="resume.docx"></a> -->
+                <a href="#" download="resume.docx" class="btn-1">Download</a>
+                <button class="btn-2">Hire Me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/sumit.jpeg" alt=" my pic">
+
+        </div>
+    </section>
+    <!------------------------------------------------ About section--------------------------------- -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="images/sumits.jpeg" alt="about image">
+        </div>
+        <div class="about-content">
+            <h2>ABOUT ME</h2>
+            <h3>Frontend<span>Developer</span></h3>
+            <p>I'm Sumit Saxena a skilled & creative Web Developer with a
+                passion for creating beautiful responsive and user friendly website.<br>I've worked for various
+                types of web project and implemented my skills on them..."</< /p>
+                <!---------------------------------------- tab title ------------------------------------->
+            <div class="tab-tittles">
+                <p class="tab-links active-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                <p class="tab-links " onclick="opentab('experience')"> Work Experience</p>
+            </div>
+            <!--------------------------------------- tab contents------------------------------------ -->
+            <div class="tab-contents " id="hobbies">
+                <ul>
+                    <li><span>Cr</span>eating new things.</li>
+                    <li><span>Ta</span>lk to new peoples.</li>
+                    <li><span>Ev</span>ent oraganing </li>
+                </ul>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span>HIGH SCHOOL</span><br>From Don and Donna Convent School Shahjahanpur </li>
+                    <li><span>INTERMEDIATE</span><br>From Donna Convent School Shahjahanpur </li>
+                    <li><span>BCA</span><br>From Invertis University Bareilly </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Fresher</span><br> currently searching an opportunity where i can implemented my
+                        skills as well as help the oraganisation. </li>
+                </ul>
+            </div>
+    </section>
+    <!--------------------------------------------------- For Skills------------------------- -->
+    <section id="skills" class="skills">
+        <div class="skills-img">
+            <img src="images/skill.jpg" alt="skill image">
+        </div>
+        <div class="skill-content">
+            <h2>My <span>Skills</span></h2><br>
+            <div class="list">
+                <ul>
+                    <li><span>HTML</span><br>Using HTML for designing the structureof webpage.</li>
+                    <li><span>CSS</span><br>Style the content of webpage.</li>
+                    <li><span>JAVA SCRIPT</span><br>Create the intractive website. </li>
+                    <li><span>REACT</span><br>Currently working on this skill.</li>
+                </ul>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------------for project------------------------------------------------------ -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            
+            </div>
+                <div class="portfolio-box">
+                <img src="images/sumitss.png">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>it is web project that display the overall information about me!</p>
+                    <a href="https://saoudtauheed.github.io/Portfolio/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            
+            </div>
+            <div class="portfolio-box">
+                <img src="images/temp.png">
+                <div class="portfolio-layer">
+                    <h4>Temperature converter</h4>
+                    <p>it is web project that convert the temperature from one unit to another!</p>
+                    <a href="https://saoudtauheed.github.io/temp.page/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/todo.png">
+                <div class="portfolio-layer">
+                    <h4>TO-DO WEB</h4>
+                    <p>it is web project where we can add our daily basis task!</p>
+                    <a href="https://saoudtauheed.github.io/todo/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------Contact section------------------------------- -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- footer section --------------------------------------------->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sumit Saxena|| All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal"> </script>
+</body>
+
+</html>
